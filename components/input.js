@@ -15,5 +15,8 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         marginTop: 16,
         textAlign: 'center',
+        fontFamily: "Raleway",
+        fontWeight: 200,
+        fontSize: 15,
       },
 })
