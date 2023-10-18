@@ -3,10 +3,10 @@ import Input from "../components/input";
 import Button from "../components/button";
 
 
-export default function Comanda(){
+export default function Comanda({navigation}){
     return(
 
-        <View style={style.container}> 
+        <View style={styles.container}> 
 
             <View>
                 <Text>Ola,</Text>
@@ -16,7 +16,7 @@ export default function Comanda(){
 
             <View>
                 <Input />
-                <Button>confirmar</Button>
+                <Button onPress={() => navigation.navigate("Produtos")}>confirmar</Button>
             </View> 
 
             <Text>
