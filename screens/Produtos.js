@@ -28,30 +28,30 @@ export default function Produtos() {
                 <MaterialIcons name="arrow-back" size={24} color="black" />
 
                 <View style={styles.box}>
-                    <Text>comanda</Text>
-                    <Text style={styles.title}>2457</Text>
+                    <Text>Pedido</Text>
+                    <Text style={styles.title}>#4469</Text>
                 </View>
             </View>
 
             <View style={styles.pedidos}>
-                <Text style={styles.subtitle}>Pedido</Text>
+                <Text style={styles.subtitle}>Cesto de roupas</Text>
                 <View style={styles.pedidoData}>
-                    <Text>Saldo da comanda</Text>
-                    <Text>R$ 0,00</Text>
+                    <Text>Lavagem dos itens</Text>
+                    <Text>R$ 605,00</Text>
                 </View>
                 <View style={styles.pedidoData}>
-                    <Text>Total do pedido</Text>
-                    <Text>R$ +20,00</Text>
+                    <Text>Taxa de serviço</Text>
+                    <Text>+ R$ 60,50</Text>
                 </View>
                 <View style={styles.pedidoDataTotal}>
-                    <Text>Saldo final</Text>
-                    <Text>R$ 149,00</Text>
+                    <Text>Valor final</Text>
+                    <Text>R$ 665,50</Text>
                 </View>
             </View>
 
-            <TextInput style={styles.input} placeholder="procurar" />
+            <TextInput style={styles.input} placeholder="" />
 
-            <Text style={styles.subtitle}>Produtos</Text>
+            <Text style={styles.subtitle}>Itens para lavar</Text>
 
             <ScrollView style={styles.scroll}>
               { produtos.map(produto => 
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   containerBetween: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#edffe5',
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 20,
