@@ -50,6 +50,22 @@
         "preco": 150,
         "id": 7
     }
+    ],
+
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Adu",
+            "email": "adu@gmail.com",
+            "senha": "1234"
+        },
+        {
+            "id": 2,
+            "nome": "Nat",
+            "email": "nat@gmail.com",
+            "senha": "4321"
+        }
+
     ]
 
 }

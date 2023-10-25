@@ -22,6 +22,8 @@ export default function Produtos() {
     .then(resp => setProdutos(resp.data))
 }, [])
 
+
+
     return (
         <View style={styles.containerBetween}>
             <View style={styles.header}>
